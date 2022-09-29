@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            /* text-decoration: none; */
+            list-style: none;
+            box-sizing: border-box;
+            
+        
+        }
+        
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background: lavender;
+            
+
+        }
+        nav{
+            background: purple;
+            height: 80px;
+            width: 100%;
+        }
+        
+        nav h1{
+            margin-left: 880px;
+            display:inline-block ;
+            line-height: 80px;
+            /* margin: 0 5px; */
+            color: white;
+            font-size: 25px;
+           
+        }
+        nav ul{
+            float: right;
+            margin-right: 150px;
+
+        }
+        nav ul li{
+            display:inline-block ;
+            line-height: 80px;
+            margin: 0 5px;
+        }
+        nav ul li a{
+            color: white;
+            font-size: 18px;
+            text-decoration: underline;
+            text-transform: uppercase;
+            padding: 7px 13px;
+        }
+        a.active:hover{
+            color:red;
+        }
+        .heading {
+            text-align: center;
+            margin-top: 180px;
+        }
+        .popular{
+            float: left;
+            margin-top: 50px;
+            padding-left: 50px;
+           box-sizing: border-box;
+           margin-left: 480px;
+           text-align: center;
+         
+        }
+        body h4{
+            text-decoration: underline;
+        }
+        
+    body h2{
+        text-align: center;
+        text-decoration: underline;
+        margin-top: 80px;
+    }
+       
+            
+        
+    </style>
+</head>
+<body>
+     <nav>
+         <h1><strong>Your Home!</strong></h1>
+         <ul>
+            
+             <li><a class="active" href="Login.php"> Login</a></li>
+             <li><a class="active" href="Registration.php">Signup/Registration</a></li>
+             <li><a class="active" href="Login.php">About us</a></li>
+         </ul>
+     </nav>
+     <div class="heading">
+         <h3>Find your future home here...</h3> <br>
+         <h3>You can also sell your property here..</h3>
+     </div>
+     <h2>Popular Dhaka Neighborhood</h2>
+     <div class="popular">
+         
+         <h4>For Rent</h4>
+         <p>Mirpur DOHS</p> 
+         <p>Banani</p>
+         <p>Bashundhara R/A</p>
+         </div>
+         <div class="popular">
+         <h4>For sale</h4>
+         <p>Nikunjo</p> 
+         <p>Uttara</p>
+         <p>Dhanmondi</p>
+
+     </div>
+     
+      
+ </body>
+</html>
